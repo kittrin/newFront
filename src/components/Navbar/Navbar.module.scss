@@ -1,0 +1,15 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  align-items: center;
+  background: var(--secondary);
+}
+.info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  & a {
+     color: white;
+  }
+}

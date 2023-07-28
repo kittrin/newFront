@@ -1,5 +1,3 @@
-import './App.css';
-import {Button} from "antd";
 import Navbar from "./components/Navbar/Navbar";
 import {Route, Routes} from "react-router-dom";
 import {router} from "./router/router";
