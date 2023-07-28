@@ -1,0 +1,26 @@
+.Register {
+  display: flex;
+  justify-content: center;
+  padding: 200px 0;
+}
+.Register .form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Register .form span {
+  display: flex;
+  gap: 6px;
+}
+.Register button {
+  display: flex;
+  text-align: center;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.Register button img {
+  height: 100%;
+}
+
+/*# sourceMappingURL=RegisterPage.module.css.map */

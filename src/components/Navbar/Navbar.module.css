@@ -8,13 +8,14 @@
   -webkit-box-shadow: 4px 5px 8px 0px rgba(34, 60, 80, 0.2);
   -moz-box-shadow: 4px 5px 8px 0px rgba(34, 60, 80, 0.2);
   box-shadow: 4px 5px 8px 0px rgba(34, 60, 80, 0.2);
-  .info {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
-  & a {
-    color: white;
-  }
+}
+.Navbar .info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.Navbar a {
+  color: white;
 }
 
+/*# sourceMappingURL=Navbar.module.css.map */
