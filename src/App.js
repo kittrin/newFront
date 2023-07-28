@@ -4,7 +4,6 @@ import {Button} from "antd";
 function App() {
     return (
         <div>
-            <Button size="large">134</Button>
         </div>
     );
 }
