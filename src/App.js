@@ -4,14 +4,14 @@ import {router} from "./router/router";
 
 function App() {
     return (
-        <main>
+        <>
             <Navbar/>
             <Routes>
                 {router.map(item => (
                     <Route element={item.element} path={item.path}/>
                 ))}
             </Routes>
-        </main>
+        </>
     );
 }
 

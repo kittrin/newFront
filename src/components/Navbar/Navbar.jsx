@@ -14,10 +14,16 @@ const Navbar = () => {
                         Заявки
                     </Link>
                 </Typography.Link>
-                <Link to="/new">Подать заявку</Link>
+                <Typography.Link>
+                    <Link to="/new">
+                        Подать заявку
+                    </Link>
+                </Typography.Link>
             </div>
             <div>
-                <Link to="/profile">Профиль</Link>
+                <Typography.Link>
+                    <Link to="/profile">Профиль</Link>
+                </Typography.Link>
             </div>
         </nav>
     );
